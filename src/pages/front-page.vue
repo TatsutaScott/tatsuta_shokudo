@@ -6,12 +6,11 @@
 import { ref, onMounted } from "vue";
 import { Engine, World, Mouse, MouseConstraint } from "matter-js";
 
-import { makeCanvas } from "@/assets/js/background/canvas_util";
-import { random } from "@/assets/js/background/random_util";
+import { makeCanvas } from "@/assets/js/canvas_util";
+import { random } from "@/assets/js/random_util";
 
-import Particle from "@/assets/js/background/matter_particle";
-import Boundary from "@/assets/js/background/matter_boundary";
-import foods_list from "@/assets/js/background/food_icons";
+import { Particle, Boundary } from "@/assets/js/matter_classes";
+import foods_list from "@/assets/js/food_icons";
 
 const sketch_container = ref(null);
 const particle_num = 70;

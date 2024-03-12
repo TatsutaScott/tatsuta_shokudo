@@ -23,12 +23,12 @@
 </template>
 
 <script setup>
-import data from "@/static/tableOfContents.json";
-import recipeCard from "@/components/low_level_components/recipe_card.vue";
+import data from "@/data/tableOfContents.json";
+import recipeCard from "@/components/low_level/recipe_card.vue";
 </script>
 
 <style lang="scss" scoped>
-@import "../assets/styles/globalStyles.scss";
+@import "@/assets/styles/globalStyles.scss";
 
 #index-container {
   padding: 0 2rem;

@@ -1,0 +1,96 @@
+{
+  "title": {
+    "english": "Pork Bulgogi",
+    "foreign": "돼지불고기"
+  },
+  "source": "https://www.maangchi.com/recipe/bulgogi",
+  "time": {
+    "amount": 40,
+    "unit": "m"
+  },
+  "servings": {
+    "amount": [3, 4],
+    "unit": "Servings"
+  },
+  "date": [26, 12, 2023],
+  "tags": ["Korean", "Pork", "Main"],
+  "ingredients": [
+    {
+      "title": null,
+      "notes": null,
+      "contents": [
+        {
+          "name": "Pork Belly",
+          "amount": 1,
+          "unit": "lb",
+          "note": "sliced thinly into pieces ½ inch x 2 inches and ⅛ inch thick"
+        },
+        {
+          "name": "Crush Pear",
+          "amount": { "n": 1, "d": 2 },
+          "unit": "c"
+        },
+        {
+          "name": "Onion Puree",
+          "amount": { "n": 1, "d": 4 },
+          "unit": "c"
+        },
+        {
+          "name": "Garlic",
+          "amount": 4,
+          "unit": "clove",
+          "note": "minced"
+        },
+        {
+          "name": "Ginger",
+          "amount": { "n": 1, "d": 2 },
+          "unit": "tsp",
+          "note": "minced"
+        },
+        {
+          "name": "Ingredient 1",
+          "amount": 1,
+          "unit": "c",
+          "note": "whole number"
+        },
+        {
+          "name": "Green Onion",
+          "amount": 1,
+          "unit": null
+        },
+        {
+          "name": "Sugar",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Brown Sugar",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Toasted Sesame Oil",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "name": "Gochujang",
+          "amount": 3,
+          "unit": "tbsp"
+        }
+      ]
+    }
+  ],
+  "directions": [
+    {
+      "title": null,
+      "steps": [
+        "Mix all the marinade ingredients in a bowl. Add the sliced pork and mix well.",
+        "You can grill, pan-fry, or BBQ right after marinating, but it’s best to let it marinate in the fridge for at least 30 minutes.",
+        "Serve with rice, ssamjang (a soybean paste based dipping sauce), lettuce, sliced garlic and green chili pepper.",
+        "Make a small green lettuce wrap with pork, garlic, green chili pepper and ssamjang and eat the wrap in one bite!"
+      ]
+    }
+  ],
+  "notes": null
+}

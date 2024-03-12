@@ -1,0 +1,72 @@
+{
+  "title": {
+    "english": "Namerou",
+    "foreign": "なめろう"
+  },
+  "source": "https://www.sapporobeer.jp/feature/recipe/0000001153/",
+  "time": {
+    "amount": 20,
+    "unit": "m"
+  },
+  "servings": {
+    "amount": 2,
+    "unit": "servings"
+  },
+  "date": [31, 1, 2024],
+  "tags": ["Japanese", "fish", "side"],
+  "ingredients": [
+    {
+      "title": null,
+      "notes": null,
+      "contents": [
+        {
+          "name": "Aji (Horse Mackerel)",
+          "amount": 120,
+          "unit": "g",
+          "note": "(Sashimi Grade) can be replaced with other fish"
+        },
+        {
+          "name": "Tokyo Negi",
+          "amount": 0.5,
+          "unit": null,
+          "note": "can be replaced with green onion"
+        },
+        {
+          "name": "Ginger",
+          "amount": 1,
+          "unit": "large piece"
+        },
+        {
+          "name": "Miso",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Shiso",
+          "amount": 2,
+          "unit": "leaves",
+          "note": "optional"
+        }
+      ]
+    }
+  ],
+  "directions": [
+    {
+      "title": null,
+      "steps": [
+        "Finely chop the Tokyo negi and ginger. First cut the fish into thin strips, then roughly chop.",
+        {
+          "step": "Once the fish is finely chopped, pound it with two knives to make it even finer. Once it's finely chopped, add green onions, ginger, and miso on top.",
+          "note": "If you only have one knife, use as many strikes as needed to make it finer."
+        },
+        "Mix the other ingredients into the fish, then pound again with a knife. Continue chopping thoroughly until smooth, mixing the ingredients together occasionally. Sprinkle over chopped Shiso and serve."
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "Ochazuke Version",
+      "content": "Serving namerou over hot rice in Ochazuke is also a nice way to eat namerou. Adding white sesame and mixing everything together produces a great balance between the flavor of miso and sesame. This way of serving it is best served as a closing dish when drinking."
+    }
+  ]
+}

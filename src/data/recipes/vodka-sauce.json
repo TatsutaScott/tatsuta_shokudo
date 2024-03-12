@@ -1,0 +1,99 @@
+{
+  "title": "Rigatoni with Vodka Sauce",
+  "source": "https://www.bonappetit.com/recipe/rigatoni-with-easy-vodka-sauce",
+  "time": {
+    "amount": 30,
+    "unit": "m"
+  },
+  "servings": {
+    "amount": 4,
+    "unit": "Servings"
+  },
+  "date": [16, 6, 2023],
+  "tags": ["Main", "Italian", "Pasta"],
+  "ingredients": [
+    {
+      "title": null,
+      "notes": null,
+      "contents": [
+        {
+          "name": "Medium Onion",
+          "amount": 1,
+          "unit": null
+        },
+        {
+          "name": "Garlic",
+          "amount": 4,
+          "unit": "Clove"
+        },
+        {
+          "name": "Parmesan",
+          "amount": 4,
+          "unit": "oz"
+        },
+        {
+          "name": "Olive Oil",
+          "amount": 2,
+          "unit": "tbsp",
+          "note": "Plus more for drizzling"
+        },
+        {
+          "name": "Tomato Paste",
+          "amount": 1,
+          "unit": "4.5oz tube",
+          "note": "Double Concentrated"
+        },
+        {
+          "name": "Crushed Red Pepper Flakes",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "Vodka",
+          "amount": 4,
+          "unit": "oz"
+        },
+        {
+          "name": "Heavy Cream",
+          "amount": 4,
+          "unit": "oz"
+        },
+        {
+          "name": "Rigatoni",
+          "amount": 4,
+          "unit": "oz"
+        },
+        {
+          "name": "Fresh Basil",
+          "amount": 4,
+          "unit": "oz",
+          "note": "for serving"
+        }
+      ]
+    }
+  ],
+  "directions": [
+    {
+      "title": "Section 1",
+      "steps": [
+        "This is a normal step, just a string. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae aliquet urna. Nullam condimentum dictum dapibus. Vivamus nec aliquam quam.",
+        {
+          "step": "This is not a normal step, it is an object. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae aliquet urna. Nullam condimentum dictum dapibus. Vivamus nec aliquam quam.",
+          "note": "This is the step's note."
+        }
+      ]
+    },
+    {
+      "title": "Section 2",
+      "steps": [
+        "This is a normal step, just a string. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae aliquet urna. Nullam condimentum dictum dapibus. Vivamus nec aliquam quam."
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "Alcohol Replacement",
+      "content": "Vodka can be replaced with other liquids if needed. Good alcohol replacements are Vermouth or Marsala. Water can also be used as a non alcohol alternative."
+    }
+  ]
+}

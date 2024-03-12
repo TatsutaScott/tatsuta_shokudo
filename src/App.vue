@@ -6,11 +6,11 @@
 </template>
 
 <script setup>
-import navSection from "./components/section_components/nav_section.vue";
+import navSection from "@/components/sections/nav_section.vue";
 </script>
 
 <style lang="scss">
-@import "./assets/styles/globalStyles.scss";
+@import "@/assets/styles/globalStyles.scss";
 
 #main {
   margin: 0;

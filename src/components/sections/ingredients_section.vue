@@ -50,8 +50,8 @@
 
 <script setup>
 import { defineProps, onMounted, ref } from "vue";
-import subsection from "@/pages/recipePg/sectionComps/ingredient_subSection.vue";
-import number_input from "../lowLevelComps/number_input.vue";
+import subsection from "@/components/sections/ingredient_subSection.vue";
+import number_input from "@/components/low_level/number_input.vue";
 
 const props = defineProps({
   ingredients: Array,
@@ -59,9 +59,9 @@ const props = defineProps({
 
 const subIngredients = ref();
 const mobile = ref(window.innerWidth < 500);
+
 onMounted(() => {
   subIngredients.value.forEach((i) => {
-    // i.hi();
     i.multiplySection(1);
   });
 });

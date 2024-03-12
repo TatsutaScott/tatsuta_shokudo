@@ -46,7 +46,7 @@ const props = defineProps({
 
 const recipe = ref(null);
 
-import(`../../static/recipes/${props.name}.json`).then(
+import(`../data/recipes/${props.name}.json`).then(
   (data) => (recipe.value = data)
 );
 </script>

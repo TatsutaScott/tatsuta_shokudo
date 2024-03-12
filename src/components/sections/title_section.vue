@@ -58,7 +58,7 @@
 
 <script setup>
 import { defineProps } from "vue";
-import info_data from "../lowLevelComps/data_pair_comp.vue";
+import info_data from "@/components/low_level/data_pair_comp.vue";
 
 const props = defineProps({
   title: [String, Object],

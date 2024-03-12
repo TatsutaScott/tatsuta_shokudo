@@ -15,7 +15,7 @@
 </template>
 
 <script setup>
-import Directions_subSection from "@/pages/recipePg/sectionComps/directions_subSection.vue";
+import Directions_subSection from "@/components/sections/directions_subSection.vue";
 import { defineProps } from "vue";
 
 const props = defineProps({

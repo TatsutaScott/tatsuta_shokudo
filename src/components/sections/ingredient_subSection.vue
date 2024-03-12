@@ -20,8 +20,8 @@
 
 <script setup>
 import { defineProps, defineExpose, ref } from "vue";
-import Ingredient_comp from "@/pages/recipePg/lowLevelComps/ingredient_comp.vue";
-import Frac from "@/pages/recipePg/js/Frac.js";
+import Ingredient_comp from "@/components/low_level/ingredient_comp.vue";
+import Frac from "@/assets/js/Frac";
 
 const props = defineProps({
   ingredientGroup: Object,

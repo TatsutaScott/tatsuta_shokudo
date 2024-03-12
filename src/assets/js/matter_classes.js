@@ -1,6 +1,6 @@
 import { Bodies, Composite } from "matter-js";
 
-class Boundary {
+class Matter_Boundary {
   constructor(ctx, world, x, y, w, h, a) {
     this.x = x;
     this.y = y;
@@ -70,4 +70,4 @@ class Matter_Particle {
   }
 }
 
-export { Matter_Particle, Boundary };
+export { Matter_Particle, Matter_Boundary };

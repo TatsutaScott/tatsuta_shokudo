@@ -26,7 +26,7 @@ const props = defineProps({
 </script>
 
 <style scoped lang="scss">
-@import "../../assets/styles/globalStyles.scss";
+@import "@/assets/styles/globalStyles.scss";
 
 .card-container {
   @include flex(column, space-between, start);

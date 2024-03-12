@@ -9,7 +9,7 @@ import { Engine, World, Mouse, MouseConstraint } from "matter-js";
 import { makeCanvas } from "@/assets/js/canvas_util";
 import { random } from "@/assets/js/random_util";
 
-import { Particle, Boundary } from "@/assets/js/matter_classes";
+import { Matter_Particle, Matter_Boundary } from "@/assets/js/matter_classes";
 import foods_list from "@/assets/js/food_icons";
 
 const sketch_container = ref(null);
@@ -31,7 +31,7 @@ onMounted(() => {
 
   for (let i = 0; i < particle_num; i++) {
     particles.push(
-      new Particle(
+      new Matter_Particle(
         ctx,
         world,
         random(0, width),
@@ -43,10 +43,10 @@ onMounted(() => {
   }
 
   boundaries.push(
-    new Boundary(ctx, world, width / 2, 0, width, 1, 0),
-    new Boundary(ctx, world, width / 2, height, width, 1, 0),
-    new Boundary(ctx, world, 0, height / 2, 1, height, 0),
-    new Boundary(ctx, world, width, height / 2, 1, height, 0)
+    new Matter_Boundary(ctx, world, width / 2, 0, width, 1, 0),
+    new Matter_Boundary(ctx, world, width / 2, height, width, 1, 0),
+    new Matter_Boundary(ctx, world, 0, height / 2, 1, height, 0),
+    new Matter_Boundary(ctx, world, width, height / 2, 1, height, 0)
   );
 
   const canvasMouse = Mouse.create(canvas);

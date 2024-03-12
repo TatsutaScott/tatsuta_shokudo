@@ -1,0 +1,95 @@
+//imports
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
+//color palette
+$color-primary: #7ea16b;
+$color-highlight: blue;
+$color-weak: #66716b;
+$color-text: #252a14;
+$color-white: #ffffff;
+
+//media query break points
+@mixin mobile {
+  @media (max-width: 500px) {
+    @content;
+  }
+}
+@mixin mid-size {
+  @media (min-width: 500px) and (max-width: 1200px) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+$phone: 480px;
+$tablet: 481px;
+$laptop: 769px;
+
+//other variables
+$base-font-size: 1.25rem;
+$base-font: "Montreal", "Helvetica";
+
+body {
+  margin: 0;
+  overflow-x: clip;
+  font-family: $base-font;
+}
+
+.button {
+  cursor: default;
+}
+
+// //util classes
+// .note {
+//   color: $color-weak;
+//   font-style: italic;
+//   margin-left: 0.5em;
+//   font-size: 75% !important;
+// }
+
+.plain {
+  color: black;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: $color-highlight;
+}
+
+//utilities
+@mixin flex($direction: row, $spacing: flex-start, $align: center) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $spacing;
+  align-items: $align;
+}
+
+@mixin container {
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+//configuring things
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+}
+
+::-webkit-scrollbar-thumb {
+  background: $color-weak;
+  border-radius: 5px;
+}
+
+@font-face {
+  font-family: "Migra";
+  src: url("C:/Users/tatsu/code/vue/recipe/src/assets/fonts/PPMigra-Extrabold.otf");
+}
+
+@font-face {
+  font-family: "Montreal";
+  src: url("C:/Users/tatsu/code/vue/recipe/src/assets/fonts/PPNeueMontreal-Medium.otf");
+}

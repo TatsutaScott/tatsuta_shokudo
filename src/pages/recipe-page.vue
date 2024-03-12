@@ -1,6 +1,5 @@
 <template>
   <div id="recipe">
-    <!-- <div id="titleContainer"> -->
     <titleSection
       v-if="recipe"
       id="title-section"
@@ -23,6 +22,7 @@
       id="direction-section"
       :directions="recipe.directions"
     />
+
     <notesSection
       id="notes-section"
       :notes="recipe.notes"
@@ -35,10 +35,10 @@
 <script setup>
 import { defineProps, ref } from "vue";
 
-import titleSection from "@/pages/recipePg/sectionComps/title_section.vue";
-import ingredientsSection from "@/pages/recipePg/sectionComps/ingredients_section.vue";
-import directionsSection from "@/pages/recipePg/sectionComps/directions_section.vue";
-import notesSection from "@/pages/recipePg/sectionComps/notes_section.vue";
+import titleSection from "@/components/sections/title_section.vue";
+import ingredientsSection from "@/components/sections/ingredients_section.vue";
+import directionsSection from "@/components/sections/directions_section.vue";
+import notesSection from "@/components/sections/notes_section.vue";
 
 const props = defineProps({
   name: String,
